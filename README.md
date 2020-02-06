@@ -50,7 +50,29 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
-### Predefined Notification
+## Font settings
+
+To change font settings, make sure font-family and font-size are set in your css by adding css styles to:
+
+```css
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+```
+
+or
+
+```css
+[id^="simple-notification"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen",
+    "Ubuntu", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+```
+
+## Predefined Notification
 
 **Note:** All bellow method can be combined with custom content and option for different type of notification.
 
