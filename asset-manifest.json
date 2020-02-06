@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-simple-notification/static/css/main.6d55fc08.chunk.css",
-    "main.js": "/react-simple-notification/static/js/main.b8d52de6.chunk.js",
-    "main.js.map": "/react-simple-notification/static/js/main.b8d52de6.chunk.js.map",
+    "main.css": "/react-simple-notification/static/css/main.f3906146.chunk.css",
+    "main.js": "/react-simple-notification/static/js/main.41d74b3b.chunk.js",
+    "main.js.map": "/react-simple-notification/static/js/main.41d74b3b.chunk.js.map",
     "runtime~main.js": "/react-simple-notification/static/js/runtime~main.2087e25a.js",
     "runtime~main.js.map": "/react-simple-notification/static/js/runtime~main.2087e25a.js.map",
-    "static/js/2.2ca31065.chunk.js": "/react-simple-notification/static/js/2.2ca31065.chunk.js",
-    "static/js/2.2ca31065.chunk.js.map": "/react-simple-notification/static/js/2.2ca31065.chunk.js.map",
+    "static/js/2.67239b51.chunk.js": "/react-simple-notification/static/js/2.67239b51.chunk.js",
+    "static/js/2.67239b51.chunk.js.map": "/react-simple-notification/static/js/2.67239b51.chunk.js.map",
     "index.html": "/react-simple-notification/index.html",
-    "precache-manifest.47ebf8256060f909d40f928c3346711b.js": "/react-simple-notification/precache-manifest.47ebf8256060f909d40f928c3346711b.js",
+    "precache-manifest.63c40b7348b6330ae927763b4a8f62c6.js": "/react-simple-notification/precache-manifest.63c40b7348b6330ae927763b4a8f62c6.js",
     "service-worker.js": "/react-simple-notification/service-worker.js",
-    "static/css/main.6d55fc08.chunk.css.map": "/react-simple-notification/static/css/main.6d55fc08.chunk.css.map"
+    "static/css/main.f3906146.chunk.css.map": "/react-simple-notification/static/css/main.f3906146.chunk.css.map"
   }
 }
