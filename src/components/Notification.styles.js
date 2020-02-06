@@ -6,9 +6,6 @@ export const Global = styled.div`
     padding: 0;
     margin: 0;
   }
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 14px;
 `;
 export const Wrapper = styled.div`
   opacity: 0;
