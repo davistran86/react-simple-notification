@@ -8,6 +8,7 @@ import {
   ContentWrapper,
   Title,
   MainContent,
+  BlankSpace,
   CloseButton
 } from "./Notification.styles";
 
@@ -77,6 +78,7 @@ class Notification extends React.Component {
           )}
           <ContentWrapper>
             {this.props.title && <Title>{this.props.title}</Title>}
+            {this.props.description && this.props.title && <BlankSpace />}
             {this.props.description && (
               <MainContent>{this.props.description}</MainContent>
             )}

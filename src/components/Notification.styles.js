@@ -90,7 +90,7 @@ export const Title = styled.span`
   overflow: hidden;
   display: block; /* Must use in order for text-overflow: ellipsis working */
   font-weight: 600;
-  height: 2rem;
+  height: 1.5rem;
   line-height: 1.5rem;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -99,6 +99,10 @@ export const Title = styled.span`
 export const MainContent = styled.div`
   line-height: 1.5rem;
   flex: 1 1 100%;
+`;
+
+export const BlankSpace = styled.div`
+  height: 0.5rem;
 `;
 
 export const CloseButton = styled.button`
