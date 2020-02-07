@@ -20,7 +20,8 @@ let initialOption = {
   backgroundColor: "#fff",
   fontColor: "rgb(37,56,88)",
   iconColor: "none",
-  icon: null
+  icon: null,
+  zIndex: 9999
 };
 
 let topRight = { top: "1rem", right: "1rem" };
@@ -83,10 +84,12 @@ class Index extends React.Component {
           placement = topRight;
           break;
       }
+      let zIndex = _option.zIndex || initialOption.zIndex;
       let containerStyles = {
         display: "flex",
         flexDirection: "column",
         position: "fixed",
+        zIndex,
         ...placement
       };
 

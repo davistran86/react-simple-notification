@@ -1,6 +1,6 @@
 {
   "name": "@davistran86/notification",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Easily to add notification to your react web app with 1 line of code.",
   "private": false,
   "keywords": [

@@ -134,7 +134,8 @@ message.open(content, {
   backgroundColor: "#fff",
   fontColor: "rgb(37,56,88)",
   iconColor: "none",
-  icon: null
+  icon: null,
+  zIndex: 9999
 });
 ```
 
@@ -150,6 +151,7 @@ message.open(content, {
 | fontColor       | string    | rgb(37,56,88)                        | Any CSS color format can be used                                                                                                                  | `message.open(content, { fontColor: "#fff" })`                  |
 | iconColor       | string    | none                                 | Any CSS color format can be used                                                                                                                  | `message.open(content, { iconColor: "#fff" })`                  |
 | icon            | component | null                                 | Any React Component can be used. Should only use by import a svg file as React Component. E.g: `import {ReactComponent as Icon} from './icon.svg` | `message.open(content, { icon: <Icon/> })`                      |
+| zIndex          | number    | 9999                                 | Any number can be used                                                                                                                            | `message.open(content, { zIndex: 10 })`                         |
 
 ## Closing a Notification
 
